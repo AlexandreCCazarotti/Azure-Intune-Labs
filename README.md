@@ -52,7 +52,7 @@ Segmentação de acesso e restrições baseadas em perfis operacionais:
 - **Aplicações:** Apenas apps homologados por área (ex.: rotas para motoristas, rotinas operacionais para a indústria).
 
 #### 🔹 Gestão e Distribuição de Aplicações (Apps)
-- **Obrigatórios (Required - Instalação Automática):** Microsoft Teams, Word, Waze, Authenticator, Google Chrome.
+- **Obrigatórios (Required - Instalação Automática):** Microsoft Teams, Word, Waze, Authenticator, Google Chrome, entre outros.
 - **Disponíveis (Available - Portal da Empresa):** Aplicações financeiras, Microsoft Loop, sistemas de chamados (ex.: Auvo).
 
 ---
