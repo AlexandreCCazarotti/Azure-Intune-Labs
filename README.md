@@ -1,5 +1,4 @@
 # azure-intune-labs
-Para documentar laboratórios de testes em Cloud/Intune
 
 # ☁️ Azure & Microsoft Intune - Documentação de Laboratórios e Projetos
 
