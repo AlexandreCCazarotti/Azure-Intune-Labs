@@ -21,8 +21,8 @@ Repositório dedicado à documentação de projetos práticos de gerenciamento d
 #### 🔹 Inscrição e Provisionamento (Enrollment)
 - **Tablets Corporativos (Kiosk / Dedicated Devices):**
   - Implementado o perfil **Corporate-Owned Dedicated Devices**.
-  - O provisionamento é realizado via **QR Code**, realizando a pré-configuração automática de Wi-Fi, aplicação de perfis de configuração e políticas de conformidade.
-  - Atribuição feita via **Grupos Dinâmicos** no Entra ID conforme a regra do perfil/setor (ex.: *Indústria 4.0, Kiosk Motorista, Farmácia e Segurança do Trabalho*).
+  - O provisionamento é iniciado via leitura do **QR Code**, exigindo a conexão manual prévia a uma rede Wi-Fi/Internet; a partir daí, o dispositivo baixa e aplica automaticamente todos os aplicativos homologados, perfis de configuração e políticas de conformidade.
+  - Atribuição e aplicação de políticas feitas via **Grupos Dinâmicos** no Entra ID conforme a regra do perfil/setor (ex.: *Indústria 4.0, Kiosk Motorista, Farmácia e Segurança do Trabalho*).
 - **Celulares Corporativos (COBO - Corporate-Owned, Fully Managed):**
   - Perfil **Corporate-Owned, Fully Managed User Devices**.
   - Requer pré-cadastro do usuário no grupo de segurança correspondente no Entra ID para autenticação corporativa via e-mail antes da leitura do QR Code.
