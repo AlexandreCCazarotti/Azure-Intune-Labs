@@ -137,6 +137,9 @@ Durante a validação de arquitetura para a gestão de endpoints Windows, foram 
   - Criação de guias explicativos de autoatendimento para o usuário final, instruindo o primeiro acesso e a configuração inicial do dispositivo corporativo.
   - Redução na abertura de chamados recorrentes ao padronizar o passo a passo de ativação de aparelhos no ambiente de produção.
 
-  - **POPs de Gestão de Telefonia Movel:**
-  - 📄 [Procedimento Operacional: Bloqueio de Linha Móvel via Portal](./docs/POP-Bloqueio-Linha-Movel-Vivo.md)
-  - 📄 [Procedimento Operacional: Desbloqueio de Linha Móvel via Portal](./docs/POP-Desbloqueio-Linha-Movel-Vivo.md)
+  * **POPs de Gestão de Telefonia Móvel:**
+    * 📄 [Procedimento Operacional: Bloqueio de Linha Móvel via Portal](./docs/POP-Bloqueio-Linha-Movel-Vivo.md)
+    * 📄 [Procedimento Operacional: Desbloqueio de Linha Móvel via Portal](./docs/POP-Desbloqueio-Linha-Movel-Vivo.md)
+
+  * **POPs de Provisionamento & Gestão de Dispositivos (MDM/Entra ID):**
+    * 📄 [Procedimento Operacional: Instalação e Provisionamento Android via Intune](./docs/POP-Instalacao-e-Provisionamento-Intune-Android.md)
