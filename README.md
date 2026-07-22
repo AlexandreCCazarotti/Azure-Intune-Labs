@@ -28,14 +28,23 @@ Repositório dedicado à documentação de projetos práticos de gerenciamento d
   - Requer pré-cadastro do usuário no grupo de segurança correspondente no Entra ID para autenticação corporativa via e-mail antes da leitura do QR Code.
 
 #### 🔹 Perfis de Configuração (Device Configuration Profiles)
-Segmentação de acesso baseada em perfis de usuários (Nível 1 e Nível 2):
-- **Nível 1 (NV1):** Acesso liberado à Managed Google Play Store.
-- **Nível 2 (NV2):** Loja bloqueada, permitindo apenas a instalação de aplicações homologadas (ex.: Apps bancários, VR/VT, pacotes de produtividade).
-- **Restrições de Segurança Globais (COBO):**
-  - Bloqueio de *Factory Reset* (Reset de fábrica).
-  - Bloqueio de transferência de arquivos via USB e mídias externas.
-  - Bloqueio de alteração manual de data/hora e modificações de rede/Wi-Fi.
-  - Obrigatoriedade de Tela de Bloqueio com Padrão Mínimo de Complexidade de Senha.
+Segmentação de acesso e restrições baseadas em perfis operacionais:
+
+- **Nível 1 (NV1 - Liberado):**
+  - Recebe as aplicações obrigatórias da empresa no provisionamento.
+  - Acesso à Google Play Store liberado, permitindo o download de aplicativos adicionais e fora do catálogo padrão corporativo.
+
+- **Nível 2 (NV2 - Restrito):**
+  - Recebe o pacote padrão de aplicações corporativas no provisionamento.
+  - Acesso à loja restrito apenas ao catálogo de aplicações homologadas pela empresa (ex.: apps bancários, VR/VT, Microsoft 365), disponibilizadas como opcionais para instalação conforme a necessidade.
+
+- **Restrições de Segurança Globais & Conectividade (COBO):**
+  - **Conectividade:** Conexão a novas redes Wi-Fi (incluindo redes particulares/externas) liberada para garantir mobilidade.
+  - **Segurança Corporativa:**
+    - Bloqueio de *Factory Reset* (Reset de fábrica).
+    - Bloqueio de transferência de arquivos via USB e mídias externas.
+    - Bloqueio de alteração manual de Data e Hora.
+    - Obrigatoriedade de Tela de Bloqueio com Padrão Mínimo de Complexidade de Senha exigido pela política de segurança.
 
 #### 🔹 Dispositivos Dedicados (Kiosk Mode)
 - **Modo:** Multi-App Kiosk.
