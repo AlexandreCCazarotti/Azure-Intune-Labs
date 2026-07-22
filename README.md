@@ -14,7 +14,7 @@ Repositório dedicado à documentação de projetos práticos de gerenciamento d
 4. [Análise de Cenários e Implantação Windows (Hybrid vs Entra ID Join)](#4-análise-de-cenários-e-implantação-windows-hybrid-vs-entra-id-join)
 5. [Gestão de MDM Legado & Estratégia de Migração (Urmobo ➔ Microsoft Intune)](#5-gestão-de-mdm-legado--estratégia-de-migração-urmobo--microsoft-intune)
 6. [Gestão de Telefonia Corporativa & Inventário Móvel (Telecom / TEM)](#6-gestão-de-telefonia-corporativa--inventário-móvel-telecom--tem)
-
+7. [Documentação Técnica & Criação de Procedimentos Operacionais (POPs)](#7-documentação-técnica--criação-de-procedimentos-operacionais-pops)
 ---
 
 ### 1. Gerenciamento e Provisionamento de Dispositivos Móveis (Android Enterprise)
@@ -124,3 +124,15 @@ Durante a validação de arquitetura para a gestão de endpoints Windows, foram 
 - **Controle de Franquias de Dados & Políticas por Grupo:**
   - Definição e gerenciamento de cotas/franquias mensais de dados (GB/mês) por perfil de uso e setor, diretamente via portal de gestão da operadora.
   - Acompanhamento e auditoria de consumos discrepantes/excessivos de pacotes de dados.
+
+---
+
+### 7. Documentação Técnica & Criação de Procedimentos Operacionais (POPs)
+
+- **Padronização de Processos do Time (N1/N2):**
+  - Elaboração e manutenção de Procedimentos Operacionais Padrão (POPs) voltados para orientar a equipe de suporte operacional em rotinas repetitivas e resoluções de problemas complexos (*troubleshooting*).
+  - Mapeamento detalhado do fluxo de *onboarding* e *offboarding* de dispositivos móveis no MDM (troca de usuário, formatação, reatribuição de perfis e liberação de linhas).
+
+- **Mitigação de Erros Operacionais & Onboarding de Usuários:**
+  - Criação de guias explicativos de autoatendimento para o usuário final, instruindo o primeiro acesso e a configuração inicial do dispositivo corporativo.
+  - Redução na abertura de chamados recorrentes ao padronizar o passo a passo de ativação de aparelhos no ambiente de produção.
