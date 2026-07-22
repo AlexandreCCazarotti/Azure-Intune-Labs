@@ -136,3 +136,7 @@ Durante a validação de arquitetura para a gestão de endpoints Windows, foram 
 - **Mitigação de Erros Operacionais & Onboarding de Usuários:**
   - Criação de guias explicativos de autoatendimento para o usuário final, instruindo o primeiro acesso e a configuração inicial do dispositivo corporativo.
   - Redução na abertura de chamados recorrentes ao padronizar o passo a passo de ativação de aparelhos no ambiente de produção.
+
+  - **POPs de Gestão de Telefonia Movel:**
+  - 📄 [Procedimento Operacional: Bloqueio de Linha Móvel via Portal](./docs/POP-Bloqueio-Linha-Movel-Vivo.md)
+  - 📄 [Procedimento Operacional: Desbloqueio de Linha Móvel via Portal](./docs/POP-Desbloqueio-Linha-Movel-Vivo.md)
