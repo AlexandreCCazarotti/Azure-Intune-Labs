@@ -31,9 +31,6 @@ Após a garantia de que o usuário/dispositivo está no grupo correto, inicie o 
 2. Toque repetidamente (6 vezes) em uma área vazia da tela inicial para ativar o leitor de QR Code do Android Enterprise.
 3. Aponta a câmera para o QR Code de *enrollment* fornecido pelo portal do Intune.
 
-*(Opção visual: insira a imagem da tela de QR Code)*
-<!-- ![Tela de QR Code](./images/step1-qrcode.png) -->
-
 #### Step 2: Conexão de Rede
 1. Na tela de redes disponíveis, selecione uma rede **Wi-Fi com acesso à internet**.
 2. Insira a credencial da rede e aguarde a verificação de atualizações do sistema.
