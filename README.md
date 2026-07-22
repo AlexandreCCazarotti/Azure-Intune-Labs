@@ -49,7 +49,7 @@ Segmentação de acesso e restrições baseadas em perfis operacionais:
 #### 🔹 Dispositivos Dedicados (Kiosk Mode)
 - **Modo:** Multi-App Kiosk.
 - **Arquitetura de Autenticação:** Token do tipo *Corporate-Owned Dedicated Device* integrado ao **Microsoft Entra Shared Mode** (permite múltiplos usuários sem necessidade de senha de saída do modo Kiosk).
-- **Aplicações:** Apenas apps homologados por área (ex.: rotas e telemetria para motoristas, rotinas operacionais para a indústria).
+- **Aplicações:** Apenas apps homologados por área (ex.: rotas para motoristas, rotinas operacionais para a indústria).
 
 #### 🔹 Gestão e Distribuição de Aplicações (Apps)
 - **Obrigatórios (Required - Instalação Automática):** Microsoft Teams, Word, Waze, Authenticator, Google Chrome.
